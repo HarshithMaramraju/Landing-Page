@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeakFit - Your Ultimate Fitness Companion</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.col-md-6 img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 576px) {
+    header .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">PeakFit</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">PeakFit - Your Ultimate Fitness Companion</h1>
+            <p class="lead">Achieve your fitness goals with PeakFit's personalized training programs and tracking tools.</p>
+            <a href="#signup" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </header>
+
+    <section id="features" class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Personalized Training Programs</h2>
+                <p>Get customized workout plans tailored to your fitness level, goals, and preferences.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Progress Tracking</h2>
+                <p>Track your progress over time with intuitive graphs and metrics to stay motivated and on track.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Community Support</h2>
+                <p>Connect with a supportive community of fellow fitness enthusiasts for advice, motivation, and accountability.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Choose Your Plan</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Basic</h3>
+                            <p class="card-text">Access to personalized training programs</p>
+                            <p class="card-text">Progress tracking</p>
+                            <p class="card-text">Community support</p>
+                            <h4 class="card-title">$9.99/month</h4>
+                            <a href="#signup" class="btn btn-primary btn-block">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Pro</h3>
+                            <p class="card-text">Everything in Basic</p>
+                            <p class="card-text">Advanced workout analytics</p>
+                            <p class="card-text">Exclusive content and challenges</p>
+                            <h4 class="card-title">$19.99/month</h4>
+                            <a href="#signup" class="btn btn-primary btn-block">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Premium</h3>
+                            <p class="card-text">Everything in Pro</p>
+                            <p class="card-text">1-on-1 coaching sessions</p>
+                            <p class="card-text">Priority customer support</p>
+                            <h4 class="card-title">$29.99/month</h4>
+                            <a href="#signup" class="btn btn-primary btn-block">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contact Us</h2>
+                <p>Have questions or feedback? We'd love to hear from you!</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <img src="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2018/04/SFC-22038-Blog-Image-How-to-Raise-Your-Customer-Service-Standards.jpg" alt="Contact Image" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <br>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 PeakFit. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
